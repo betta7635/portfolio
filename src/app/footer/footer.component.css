@@ -1,0 +1,6 @@
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 105%;
+  z-index: 1;
+}
