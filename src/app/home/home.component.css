@@ -1,0 +1,29 @@
+#body {
+  background-color: rgb(249, 249, 249);
+  width: 100%;
+  min-height: 60rem;
+  /* margin-top: 1rem; */
+}
+#icon {
+  background-color: rgb(249, 249, 218);
+  max-width: 75%;
+  height: 8rem;
+}
+#summary {
+  background-color:rgb(194, 220, 244);
+  max-width: 75%;
+  height: 20rem;
+}
+#images {
+  background-color: rgb(218, 188, 247);
+  max-width: 75%;
+  height: 30rem;
+}
+.img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
