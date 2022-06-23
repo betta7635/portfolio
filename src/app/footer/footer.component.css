@@ -1,6 +1,9 @@
 #footer {
   position: relative;
   bottom: 0;
-  width: 105%;
+  width: 100%;
   z-index: 1;
+}
+#copy {
+  font-family: 'Antic Didone', serif;
 }
