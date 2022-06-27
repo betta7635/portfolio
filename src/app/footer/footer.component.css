@@ -7,3 +7,10 @@
 #copy {
   font-family: 'Antic Didone', serif;
 }
+a:hover {
+  background-color: blue;
+  color: rgb(245, 245, 245);
+}
+a {
+  color: rgb(245, 245, 245);
+}

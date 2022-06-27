@@ -10,4 +10,5 @@ a {
 }
 a:hover {
   font-family: 'Tapestry', serif;
+  color: blue;
 }
