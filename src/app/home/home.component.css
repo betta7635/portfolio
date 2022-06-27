@@ -1,22 +1,9 @@
-#body {
-  background-color: rgb(249, 249, 249);
-  width: 100%;
-  min-height: 60rem;
+h1 {
+  font-family: 'Tapestry', serif;
 }
-#icon {
-  background-color: rgb(249, 249, 218);
-  max-width: 75%;
-  height: 8rem;
-}
-#summary {
-  background-color:rgb(194, 220, 244);
-  max-width: 75%;
-  height: 20rem;
-}
-#images {
-  background-color: rgb(218, 188, 247);
-  max-width: 75%;
-  height: 30rem;
+p {
+  font-family: 'Antic Didone', serif;
+  font-size: large;
 }
 /* main container */
 h1 {
@@ -94,4 +81,34 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+}
+#home.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-between;
+  padding: 5, 5, 5, 5;
+}
+#icon.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: baseline; */
+}
+#bio.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#text {
+  width: 33%;
+}
+#projects.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

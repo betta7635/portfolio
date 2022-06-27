@@ -1,7 +1,7 @@
 #footer {
   position: relative;
   bottom: 0;
-  width: 105%;
+  width: 100%;
   z-index: 1;
   background-color: rgb(245, 245, 245);
   padding-top: 5px;
@@ -16,4 +16,7 @@
 a:hover {
   border-color: blue;
   background-color: blue;
+}
+#copy {
+  font-family: 'Antic Didone', serif;
 }

@@ -17,3 +17,10 @@ a:hover {
 a:active {
   color: blue;
 }
+a {
+  font-family: 'Antic Didone', serif;
+  font-size: large;
+}
+a:hover {
+  font-family: 'Tapestry', serif;
+}

@@ -10,6 +10,7 @@ h5 {
   font-size: larger;
   font-weight: bold;
 }
+
 /* entire page */
 #bio.flex-container {
   display: flex;
@@ -29,11 +30,15 @@ h5 {
   z-index: 0;
 }
 /* bio title and biography summary */
+#biotext {
+  width: 33.33%;
+}
 #summary.flex-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 #biotext {
   width: 33.33%;
 }
@@ -44,7 +49,6 @@ h5 {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  height: 20%;
 }
 #rmwc {
   width: 33.33%;
@@ -112,6 +116,10 @@ h5 {
 }
 
 /* code labs */
+#webster {
+  width: 33.33%;
+  margin-right: 2rem;
+}
 #codelabs-container.flex-container {
   display: flex;
   flex-direction: row;
