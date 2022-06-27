@@ -1,7 +1,28 @@
+/* main container */
 h1 {
   font-family: 'Tapestry', serif;
 }
 p {
   font-family: 'Antic Didone', serif;
   font-size: large;
+}
+#projects.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-between;
+  background-color: rgb(245, 245, 245);
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#images {
+  margin-left: 2rem;
+}
+/* background image */
+#background {
+  position: absolute;
+  top: 0px;
+  right: 50px;
+  z-index: 0;
 }
