@@ -3,4 +3,17 @@
   bottom: 0;
   width: 105%;
   z-index: 1;
+  background-color: rgb(245, 245, 245);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#copy {
+  font-family: 'Antic Didone', serif;
+  background-color: rgb(245, 245, 245);
+  margin-top: -15px;
+  padding-top: 0;
+}
+a:hover {
+  border-color: blue;
+  background-color: blue;
 }

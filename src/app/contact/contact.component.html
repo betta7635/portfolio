@@ -1,0 +1,42 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <h1 style="text-align: center">Contact Me</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <p>If you have questions or would like more specific information about a project or a work-in-progress, please contact me. Your information will never be shared with anyone else.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form [formGroup]="formData" (ngSubmit)="onSubmit(formData.value)">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input class="form-control" type="email" name="_replyto" formControlName="email" aria-describedby="emailHelp" placeholder="youraddress@email.com"/>
+          </div>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control" type="text" name="name" formControlName="name" placeholder="Your Name"/>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" name="message" formControlName="message"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="hidden" name="_after" value="https://localhost:4200/home"/>
+          </div>
+          <div class="form-group">
+            <input type="hidden" name="_honeypot" value=""/>
+          </div>
+          <div class="form-group">
+            <input type="hidden" id="confirmation" name="_confirmation" value="Your message has been sent successfully!"/>
+          </div>
+          <button class="btn btn-success" type="submit" style="cursor: pointer" [disabled]="!formData.valid">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

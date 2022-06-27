@@ -1,0 +1,33 @@
+.container-fluid {
+  background-color: rgb(245, 245, 245);
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1 {
+  font-family: 'Tapestry', serif;
+}
+#confirmation,
+p {
+  font-family: 'Antic Didone', serif;
+  font-size: large;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+label {
+  font-family: 'Antic Didone', serif;
+  font-size: larger;
+  font-weight: bold;
+}
+button {
+  font-family: 'Antic Didone', serif;
+  font-size: large;
+  font-weight: bold;
+  padding: auto;
+}
+button:hover {
+  font-family: 'Tapestry', serif;
+}
+.form-group {
+  padding-bottom: 5px;
+}
