@@ -5,82 +5,13 @@ p {
   font-family: 'Antic Didone', serif;
   font-size: large;
 }
-/* main container */
-h1 {
-  font-family: 'Tapestry', serif;
-}
-p {
-  font-family: 'Antic Didone', serif;
-  font-size: large;
-}
-
-/* entire page */
-#home.flex-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-content: space-between;
-  background-color: rgb(245, 245, 245);
-  margin-top: -20px;
-}
-
-/* background image */
-#background {
+.img {
+  margin: 0;
   position: absolute;
-  top: 0px;
-  right: 50px;
-  z-index: 0;
-}
-/* icon and name */
-#icon.flex-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-/* bio */
-#bio.flex-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: 2rem;
-}
-#text {
-  width: 33%;
-  margin-right: 4rem;
-}
-/* red brush */
-#home-brush1 {
-  display: flex;
-  max-height: 250px;
-  max-width: auto;
-  object-fit: contain;
-  align-self: center;
-  padding-bottom: 2rem;
-  margin: 2rem, 2rem, 2rem, 4rem;
-  /* opacity: 0.75; */
-}
-
-/* projects */
-/* purple brush */
-#home-brush2 {
-  display: flex;
-  max-height: 300px;
-  max-width: auto;
-  object-fit: contain;
-  align-self: center;
-  padding-bottom: 2rem;
-  margin-left: 6rem;
-  margin-right: 4rem;
-  /* opacity: 0.75; */
-}
-#projects.flex-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 #home.flex-container {
   display: flex;
