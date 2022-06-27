@@ -10,13 +10,26 @@ h5 {
   font-size: larger;
   font-weight: bold;
 }
+
+/* entire page */
 #bio.flex-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-content: space-between;
-  padding: 5, 5, 5, 5;
+  background-color: rgb(245, 245, 245);
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+/* background image */
+#background {
+  position: absolute;
+  top: 0px;
+  right: 50px;
+  z-index: 0;
+}
+/* bio title and biography summary */
 #biotext {
   width: 33.33%;
 }
@@ -26,11 +39,11 @@ h5 {
   align-items: center;
 }
 
+#biotext {
+  width: 33.33%;
+}
 
-
-
-
-
+/* rmwc */
 #rmwc-container.flex-container {
   display: flex;
   flex-direction: row;
@@ -39,13 +52,22 @@ h5 {
 }
 #rmwc {
   width: 33.33%;
-  margin-left: 2rem;
+  margin-left: 6rem;
+  margin-right: 2rem;
+}
+/* yellow brush */
+#biobrush1 {
+  display: flex;
+  max-height: auto;
+  max-width: 300px;
+  object-fit: contain;
+  align-self: center;
+  padding-bottom: 2rem;
+  margin: 2rem, 2rem, 4rem, 2rem;
+  /* opacity: 0.75; */
 }
 
-
-
-
-
+/* reading */
 #reading-container.flex-container {
   display: flex;
   flex-direction: row;
@@ -54,31 +76,50 @@ h5 {
 }
 #reading {
   width: 33.33%;
-  margin-right: 2rem;
+  margin-right: 4rem;
+}
+/* green brush */
+#biobrush2 {
+  display: flex;
+  max-height: 300px;
+  max-width: auto;
+  object-fit: contain;
+  align-self: center;
+  padding-bottom: 2rem;
+  margin: 2rem, 2rem, 2rem, 2rem;
+  /* opacity: 0.75; */
 }
 
-
-
-
-
-
+/* webster */
 #webster-container.flex-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  margin-left: 2rem;
 }
+#webster {
+  width: 33.33%;
+  margin-right: 4rem;
+  margin-left: 2rem;
+}
+/* blue brush */
+#biobrush3 {
+  display: flex;
+  max-height: auto;
+  max-width: 300px;
+  object-fit: contain;
+  align-self: center;
+  padding-bottom: 2rem;
+  margin: 2rem, 2rem, 2rem, 2rem;
+  /* opacity: 0.75; */
+}
+
+/* code labs */
 #webster {
   width: 33.33%;
   margin-right: 2rem;
 }
-
-
-
-
-
-
-
 #codelabs-container.flex-container {
   display: flex;
   flex-direction: row;
@@ -87,5 +128,17 @@ h5 {
 }
 #codelabs {
   width: 33.33%;
-  margin-left: 2rem;
+  margin-left: 6rem;
+  margin-right: 4rem;
+}
+/* rust brush */
+#biobrush4 {
+  display: flex;
+  max-height: auto;
+  max-width: 250px;
+  object-fit: contain;
+  align-self: center;
+  padding-bottom: 2rem;
+  margin: 2rem, 2rem, 2rem, 2rem;
+  /* opacity: 0.75; */
 }

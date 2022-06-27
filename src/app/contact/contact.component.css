@@ -1,3 +1,10 @@
+.container-fluid {
+  background-color: rgb(245, 245, 245);
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 h1 {
   font-family: 'Tapestry', serif;
 }
@@ -5,6 +12,8 @@ h1 {
 p {
   font-family: 'Antic Didone', serif;
   font-size: large;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 label {
   font-family: 'Antic Didone', serif;
