@@ -1,11 +1,24 @@
 #footer {
+  display: flex;
+  flex-direction: column;
   position: relative;
   bottom: 0;
-  width: 100%;
+  width: auto;
+  background-color: rgb(245, 245, 245);
   z-index: 1;
+  padding: 0;
 }
 #copy {
   font-family: 'Antic Didone', serif;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: baseline;
+  bottom: 0;
+  width: auto;
+  background-color: rgb(245, 245, 245);
+  padding: 0;
 }
 a:hover {
   background-color: blue;

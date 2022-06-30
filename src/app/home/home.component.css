@@ -8,6 +8,7 @@ p {
 }
 #home.flex-container {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-around;
   align-content: space-between;
@@ -19,7 +20,7 @@ p {
 #background {
   position: absolute;
   top: 0px;
-  right: 50px;
+  right: 130px;
   z-index: 0;
 }
 /* icon and name */
@@ -72,4 +73,14 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+}
+#oakwood {
+  display: flex;
+  max-height: 250px;
+  max-width: auto;
+  object-fit: contain;
+  align-self: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }

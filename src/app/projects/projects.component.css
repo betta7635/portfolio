@@ -16,6 +16,16 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+#oakwood {
+  display: flex;
+  max-height: auto;
+  max-width: 80%;
+  object-fit: contain;
+  align-self: center;
+  justify-self: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 #images {
   margin-left: 2rem;
 }
@@ -23,6 +33,6 @@ p {
 #background {
   position: absolute;
   top: 0px;
-  right: 50px;
+  right: 130px;
   z-index: 0;
 }
